@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frem{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://i.postimg.cc/GtJD49LW/gifs.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Open Sans', serif;
+}
+
+.frem p {
+    position: absolute;
+    top: 3rem;
+    font-size: 7rem;
+    color: #00000063;
+}
+
+.frem h2{
+    position: absolute;
+    bottom: 8rem;
+    font-size: 34px;
+}
+
+.frem h5{
+    position: absolute;
+    bottom: 6rem;
+    color:#9C9C9C;
+}
+
+.frem a{
+    position: absolute;
+    bottom: 1rem;
+    background: linear-gradient(45deg, #FF0034, #FFBC00);
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    border-radius: 13px;
+    font-weight: 600;
+}
+
+@media (max-width:400){
+    .frem{
+        background-size: contain;
+    }
+    .frem h2{
+        font-size: 20px;
+    }
+}
